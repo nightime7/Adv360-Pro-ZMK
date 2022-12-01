@@ -2,7 +2,7 @@
     compatible = "zmk,behavior-macro";
     label = "macro_pinkey";
     #binding-cells = <0>;
-    bindings = <&kp 9>, <&kp 2>, <&kp 7>, <&kp 2>, <&kp 6>, <&kp 2>;
+    bindings = <&kp N9>, <&kp N2>, <&kp N7>, <&kp N2>, <&kp N6>, <&kp N2>;
   };
   macro_quotes: macro_quotes {
     compatible = "zmk,behavior-macro";
