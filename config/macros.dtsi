@@ -1,8 +1,8 @@
   macro_pinkey: macro_pinkey {
     compatible = "zmk,behavior-macro";
     label = "macro_pinkey";
-	wait-ms = <30>;
-	tap-ms = <40>;
+	wait-ms = <10>;
+	tap-ms = <10>;
     #binding-cells = <0>;
     bindings = <&kp N9>, <&kp N2>, <&kp N7>, <&kp N2>, <&kp N6>, <&kp N2>;
   };
